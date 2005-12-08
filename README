@@ -1,0 +1,41 @@
+
+                     B u n d l e - O p e n I L S
+                   -----------------------------
+
+
+The Bundle::OpenSRF collection is a set of Perl modules bundled to
+ease installation overhead for the OpenSRF component of the 
+Open-ILS (http://open-ils.org), an open-source integrated library 
+system developed by Georgia Library Pines (http://pines.lib.ga.us/)
+
+PREREQUISITES
+
+Not a complete list yet.
+
+  Jabber
+
+INSTALLATION
+
+Near as I can tell, the only way to install a bundle is from CPAN
+like this:
+
+perl -MCPAN -e 'install Bundle::OpenSRF'
+
+DOCUMENTATION
+
+See documentation for individual modules included.
+
+SUPPORT
+
+Coming in next version :-)
+
+AVAILABILITY
+
+COPYRIGHT
+
+  © 2005 Joshua Ferraro. All rights reserved.
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
+
+Enjoy!

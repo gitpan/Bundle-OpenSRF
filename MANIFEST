@@ -1,0 +1,6 @@
+Makefile.PL
+MANIFEST
+README
+t/Bundle-OpenSRF.t
+lib/Bundle/OpenSRF.pm
+META.yml                                 Module meta-data (added by MakeMaker)
