@@ -1,6 +1,6 @@
 package Bundle::OpenSRF;
 
-our $VERSION = '0.02';
+our $VERSION = '0.03';
 
 1;
 __END__
@@ -13,7 +13,7 @@ Bundle::OpenSRF - install all OpenSRF prereq modules
 
   perl -MCPAN -e 'install Bundle::OpenSRF'
 
--head CONTENTS
+=head CONTENTS
 
 Cache
 Cache::FileCache
