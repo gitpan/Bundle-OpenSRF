@@ -1,13 +1,13 @@
 package Bundle::OpenSRF;
 
-our $VERSION = '0.01';
+our $VERSION = '0.02';
 
 1;
 __END__
 
 =head1 NAME
 
-Bundle::OpenSRF - install all OpenSRF related modules
+Bundle::OpenSRF - install all OpenSRF prereq modules
 
 =head1 SYNOPSIS
 
@@ -15,6 +15,7 @@ Bundle::OpenSRF - install all OpenSRF related modules
 
 -head CONTENTS
 
+Cache
 Cache::FileCache
 Cache::Memcached
 DBI
@@ -38,7 +39,7 @@ on CPAN) but eventually, it will include all the perl for that
 project. Note that you must install the Bundle::OpenILS separately.
 
 Bundles have special meaning for the CPAN module. When you install the 
-bundle module all modules mentioned in "CONTENTS" will be installed 
+bundle module all modules mentioned in CONTENTS will be installed 
 instead.
 
 =head1 AUTHOR
