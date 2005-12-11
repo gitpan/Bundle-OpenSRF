@@ -1,6 +1,6 @@
 package Bundle::OpenSRF;
 
-our $VERSION = '0.04';
+our $VERSION = '0.05';
 
 1;
 __END__
@@ -27,7 +27,7 @@ Net::Server::PreFork
 Time::HiRes
 Unix::Syslog
 XML::LibXML
-Exception::Class - soon depreciated
+Exception::Class
 
 =head1 DESCRIPTION
 
@@ -41,6 +41,8 @@ project. Note that you must install the Bundle::OpenILS separately.
 Bundles have special meaning for the CPAN module. When you install the 
 bundle module all modules mentioned in CONTENTS will be installed 
 instead.
+
+=head1 PREREQUISITES
 
 =head1 AUTHOR
 
@@ -58,10 +60,17 @@ The web site for Open-ILS is: http://open-ils.org
 
 =head1 COPYRIGHT AND LICENSE
 
-Copyright (C) 2005 by Joshua Ferraro
+Copyright (C) 2005 Georgia Public Library Service
+Joshua Ferraro E<lt>jmf@liblime.comE<gt>
 
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself, either Perl version 5.8.6 or,
-at your option, any later version of Perl 5 you may have available.
+This program is free software; you can redistribute it and/or
+modify it under the terms of the GNU General Public License
+as published by the Free Software Foundation; either version 2
+of the License, or (at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
 
 =cut
