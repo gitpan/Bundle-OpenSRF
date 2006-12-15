@@ -16,10 +16,8 @@ Not a complete list yet.
 
 INSTALLATION
 
-Near as I can tell, the only way to install a bundle is from CPAN
-like this:
-
 perl -MCPAN -e 'install Bundle::OpenSRF'
+cpan Bundle::OpenSRF
 
 DOCUMENTATION
 
@@ -33,7 +31,8 @@ AVAILABILITY
 
 COPYRIGHT
 
-  © 2005 Joshua Ferraro. All rights reserved.
+  © 2006 LibLime
+  Joshua Ferraro <jmf@liblime.com>
 
 This library is free software; you can redistribute it and/or modify
 it under the same terms as Perl itself.

@@ -1,6 +1,6 @@
 package Bundle::OpenSRF;
 
-our $VERSION = '0.05';
+our $VERSION = '0.06';
 
 1;
 __END__
@@ -15,7 +15,6 @@ Bundle::OpenSRF - install all OpenSRF prereq modules
 
 =head1 CONTENTS
 
-Cache
 Cache::FileCache
 Cache::Memcached
 DBI
@@ -27,7 +26,9 @@ Net::Server::PreFork
 Time::HiRes
 Unix::Syslog
 XML::LibXML
-Exception::Class
+Exception::Class (soon depreciated)
+Javascript::SpiderMonkey
+Log-Log4perl
 
 =head1 DESCRIPTION
 
