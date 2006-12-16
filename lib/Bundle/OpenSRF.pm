@@ -1,17 +1,21 @@
 package Bundle::OpenSRF;
 
-our $VERSION = '0.06';
+our $VERSION = '0.07';
 
 1;
 __END__
 
 =head1 NAME
 
-Bundle::OpenSRF - install all OpenSRF prereq modules
+Bundle::OpenSRF - install all OpenSRF prereq modules available on CPAN
 
 =head1 SYNOPSIS
 
   perl -MCPAN -e 'install Bundle::OpenSRF'
+
+  or ...
+
+  cpan Bundle::OpenSRF
 
 =head1 CONTENTS
 
@@ -27,23 +31,35 @@ Time::HiRes
 Unix::Syslog
 XML::LibXML
 Exception::Class (soon depreciated)
-Javascript::SpiderMonkey
 Log-Log4perl
 
 =head1 DESCRIPTION
 
-This bundle defines all prereq modules for the perl code used in the
-OpenSRF component of the Open-ILS (http://open-ils.org) Integrated 
-Library System (library as in librarian). For now, it only includes 
-non-OpenILS and non-OpenSRF modules (ie, ones publically available 
-on CPAN) but eventually, it will include all the perl for that 
-project. Note that you must install the Bundle::OpenILS separately.
+This bundle includes all CPAN-available prereq perl modules for
+the OpenSRF component of the Open-ILS (http://open-ils.org) 
+Integrated Library System (library as in librarian). 
+
+Note that you MUST still follow the instructions on the
+wiki, preferably derived from the Debian, Ubuntu or Gentoo docs, for
+installing Perl dependencies, especially for the MARC::* related
+modules and Javascript::Spidermonkey.  These bundles do not include
+the MARC::* modules, as their maintainers have not released updated
+versions, and it can not automate the installation of JS::SM without 
+a good bit of work, because E4X support is required in Evergreen.
+
+Note that you must install the Bundle::OpenILS separately.
 
 Bundles have special meaning for the CPAN module. When you install the 
 bundle module all modules mentioned in CONTENTS will be installed 
 instead.
 
 =head1 PREREQUISITES
+
+Please see the documentation at:
+
+http://open-ils.org/dokuwiki/doku.php?id=server_installation
+
+for a detailed list of prereqs.
 
 =head1 AUTHOR
 
